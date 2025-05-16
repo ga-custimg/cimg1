@@ -1,0 +1,6 @@
+dist: focal
+language: c
+vm:
+  create:
+    name: 'ga-customimg-org-img1'
+script: echo "testtest"
