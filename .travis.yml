@@ -2,5 +2,5 @@ dist: focal
 language: c
 vm:
   create:
-    name: 'ga-customimg-org-img1'
-script: echo "testtest"
+    name: 'ga-customimg-org-img2'
+script: echo "testtest" && echo $TRAVIS_BUILD_DIR
